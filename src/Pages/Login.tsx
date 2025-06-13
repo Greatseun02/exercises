@@ -36,10 +36,12 @@ export default function Login() {
         <input
             value={userName}
             onChange={event => setUserName(event.target.value)} 
+            placeholder="Enter UserName"
         />
         <input
             value={password}
             onChange={event => setPassword(event.target.value)} 
+              placeholder="Enter UserName"
         />
         <button>
             Submit

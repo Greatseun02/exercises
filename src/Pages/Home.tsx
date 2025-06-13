@@ -1,3 +1,4 @@
+import { Link } from "react-router-dom";
 import useSwitcherContext from "../hooks/useSwitcherContext"
 
 export default function Home() {
@@ -18,6 +19,9 @@ export default function Home() {
         }>
             Click me
         </button>
+        <Link to={"/login"}>
+            Go to Login
+        </Link>
     </div>
   )
 }
